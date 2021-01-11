@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+color:white;
+}
+body{
+    background-color: black;
+}
+    
+header{
+    background-image: url(kepek/csillagok3.jpg);
+    background-size: cover;
+    margin-bottom:40px;
+}
+
+.header_firstline{
+    
+}
+.header_firstline_menu{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.header_firstline_menu a{
+    font-size:12px;
+    font-weight: 800;
+    padding:10px;
+}
+
+.header_firstline_quote{
+    text-align: center;
+    margin-top:10px;
+}
+.header_firstline_author{
+    text-align: end;
+}
+
+main{
+    background:black
+}
+#hero_postcard_first{
+    max-width: 100%;
+  height: auto;
+}
+.hero_header{
+   background-color: black;
+}
