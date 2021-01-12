@@ -9,16 +9,25 @@ body{
 header{
     background-image: url(kepek/csillagok3.jpg);
     background-size: cover;
-    margin-bottom:40px;
-}
-
-.header_firstline{
     
 }
+#logo{
+    width:100%;
+    max-width: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.header_firstline_logo{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
 .header_firstline_menu{
-display: flex;
-flex-direction: row;
-justify-content: center;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:20px;
+    margin-right:20px;
 }
 .header_firstline_menu a{
     font-size:12px;
@@ -29,18 +38,33 @@ justify-content: center;
 .header_firstline_quote{
     text-align: center;
     margin-top:10px;
+
+}
+hr{
+    width:50%;
+    margin-left: auto;
+  margin-right: auto;
 }
 .header_firstline_author{
-    text-align: end;
+    text-align: center;
 }
 
 main{
     background:black
 }
-#hero_postcard_first{
-    max-width: 100%;
-  height: auto;
+.hero{
+    display:flex;
+    justify-content: space-around;
+}
+.hero_postcard_picture{
+    width: 80%;
+   max-width:240px;
+   margin:10px;
+   
 }
 .hero_header{
    background-color: black;
+}
+h5, h6{
+    text-align: center;
 }

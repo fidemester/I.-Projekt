@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <style>
+        body{
+            margin:0;
+            background-color: seagreen;
+        }
+        #popup{
+            width:0vh;
+            height: 100vh;
+            background: white;
+            display: block;
+            position:fixed;
+            overflow: hidden;
+            top:0;
+            left:0;
+            transition: width 1.5s;
+        }
+        #cbox:checked ~ #popup{
+            
+            width:100vh;
+
+        }
+        #cbox{
+            position:absolute;
+            top:20px;
+            right:20px;
+            z-index: 3;
+        }
+        li{
+            position: relative;
+            top:20px;
+            list-style: none;
+        }
+        li a {
+            text-decoration: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <input id="cbox" type="checkbox">
+    <label for="cbox"></label>
+   <div id="popup">
+   <h3 class="popup_title">Majzik Lionel Photography</h3>
+   <ul>
+       <li><a href="">Fényképek</a></li>
+       <li><a href="">Felszerelés</a></li>
+       <li><a href="">Magamról</a></li>
+       <li><a href="">Weboldalak</a></li>
+   </ul>
+</div>
+</body>
+</html>
